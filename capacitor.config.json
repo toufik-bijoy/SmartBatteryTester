@@ -1,0 +1,17 @@
+{
+  "appId": "com.ruet.batterytester",
+  "appName": "Smart Battery Tester",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "plugins": {
+    "SystemBars": { "insetsHandling": "native" },
+    "BluetoothLe": {
+      "displayStrings": {
+        "scanning": "Scanning for ESP32...",
+        "cancel": "Cancel",
+        "availableDevices": "Available devices",
+        "noDeviceFound": "No ESP32 found"
+      }
+    }
+  }
+}
